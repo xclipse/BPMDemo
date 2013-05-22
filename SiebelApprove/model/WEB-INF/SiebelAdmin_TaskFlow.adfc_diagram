@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1">
+      <property
+         name="y">553.90234</property>
+      <property
+         name="x">103.35742</property>
+   </OverallProperties>
+   <WildcardControlFlowRule
+      id="WildcardControlFlowRule2">
+      <property
+         name="activityId">*</property>
+      <property
+         name="y">398.70117</property>
+      <property
+         name="x">103.35742</property>
+   </WildcardControlFlowRule>
+   <WildcardControlFlowRule
+      id="WildcardControlFlowRule3">
+      <property
+         name="activityId">*</property>
+      <property
+         name="y">255.0</property>
+      <property
+         name="x">103.35742</property>
+   </WildcardControlFlowRule>
+   <TaskFlowReturn
+      id="TaskFlowReturn4">
+      <property
+         name="activityId">taskFlowRefresh</property>
+      <property
+         name="finish">true</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>taskFlowRefresh&lt;/b>&lt;/p>&lt;p>Activity Type:  Task Flow Return&lt;/p>&lt;p>Outcome:  refresh&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">356.1494</property>
+      <property
+         name="x">298.21484</property>
+   </TaskFlowReturn>
+   <TaskFlowReturn
+      id="TaskFlowReturn5">
+      <property
+         name="activityId">taskReturn</property>
+      <property
+         name="finish">true</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>taskReturn&lt;/b>&lt;/p>&lt;p>Activity Type:  Task Flow Return&lt;/p>&lt;p>Outcome:  done&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">168.14941</property>
+      <property
+         name="x">298.21484</property>
+   </TaskFlowReturn>
+   <View
+      id="View6">
+      <property
+         name="activityId">SiebelAdmin Form_jspx</property>
+      <property
+         name="page">/SiebelAdmin Form.jspx</property>
+      <property
+         name="start">true</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>SiebelAdmin Form_jspx&lt;/b> (Default Activity)&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">98.79883</property>
+      <property
+         name="x">103.35742</property>
+   </View>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase7"
+      from="WildcardControlFlowRule3"
+      to="TaskFlowReturn5">
+      <property
+         name="fromOutcome">closeTaskFlow</property>
+      <property
+         name="sdm:polyPoints">R45,139.35742,251.64941,257.21484,167.79883,L50</property>
+   </ControlFlowCase>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase8"
+      from="WildcardControlFlowRule3"
+      to="TaskFlowReturn4">
+      <property
+         name="fromOutcome">refreshTaskFlow</property>
+      <property
+         name="sdm:polyPoints">R55,139.35742,258.6494,257.21484,355.79883,L50</property>
+   </ControlFlowCase>
+</SDM>

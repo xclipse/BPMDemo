@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.61.92"
+          id="keyListType" Package="SiebelApprove_SiebelAdmin"
+          BeanClass="SiebelApprove_SiebelAdmin.keyListType" isJavaBased="false">
+  <AccessorAttribute id="key" IsCollection="true"
+                     BeanClass="SiebelApprove_SiebelAdmin.keyType"
+                     CollectionBeanClass="SiebelApprove_SiebelAdmin.keyType_key_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="2147483640"/>
+      <Property Name="LABEL" Value="Key"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="key"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpel/workflow/task"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="11.1.1.6.0.15.53" fileRevision="20110706"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+    <component name="MainProcess">
+        <topicDocumentations>
+            <topicDocumentation name="MainProcess">
+                <descriptions>
+                    <description locale="en">MainProcess</description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY6105269724758">
+                <labels>
+                    <label locale="en">Update PIM UDA</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY6098197381966">
+                <labels>
+                    <label locale="en">Publish to Siebel</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY6098201016459">
+                <labels>
+                    <label locale="en">Siebel End</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY6105148308285">
+                <labels>
+                    <label locale="en">BRM End</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY6105144990216">
+                <labels>
+                    <label locale="en">Publish to BRM</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="START_EVENT6016839081213">
+                <labels>
+                    <label locale="en">Start</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="END_EVENT6016839081289">
+                <labels>
+                    <label locale="en">End</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="PARALLEL_GATEWAY6027606566142">
+                <labels>
+                    <label locale="en">publish Item to muliple sub processes</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="PARALLEL_GATEWAY6027608976457">
+                <labels>
+                    <label locale="en">publish gateway</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EXCLUSIVE_GATEWAY6458384066669">
+                <labels>
+                    <label locale="en">Result Gateway</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf33"/>
+            <topicDocumentation name="sf32"/>
+            <topicDocumentation name="sf37"/>
+            <topicDocumentation name="sf40"/>
+            <topicDocumentation name="sf67"/>
+            <topicDocumentation name="sf68"/>
+            <topicDocumentation name="sf50"/>
+            <topicDocumentation name="sf48"/>
+            <topicDocumentation name="sf51"/>
+            <topicDocumentation name="sf52">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf69">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+        </topicDocumentations>
+    </component>
+</processDocumentation>

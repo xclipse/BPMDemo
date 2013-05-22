@@ -1,0 +1,4 @@
+2013-5-9 17:33:12 oracle.mds
+NOTIFICATION: PManager 实例已创建, 但它不支持多租户, 因为未将 JVM 标记 "oracle.multitenant.enabled" 设置为启用多租户支持。
+2013-5-9 17:33:13 oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+信息: XMLSchema incremental build enabled.

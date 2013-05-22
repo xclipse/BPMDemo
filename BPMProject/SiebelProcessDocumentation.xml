@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="11.1.1.6.0.15.53" fileRevision="20110706"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+    <component name="SiebelProcess">
+        <topicDocumentations>
+            <topicDocumentation name="SiebelProcess">
+                <descriptions>
+                    <description locale="en">SiebelProcess</description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY6105250342838">
+                <labels>
+                    <label locale="en">Update PIM UDA</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY645774452400">
+                <labels>
+                    <label locale="en">Siebel Admin Approve</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="START_EVENT609817589045">
+                <labels>
+                    <label locale="en">Siebel Start</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="END_EVENT6098175890495">
+                <labels>
+                    <label locale="en">Siebel End</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EXCLUSIVE_GATEWAY6457770368077">
+                <labels>
+                    <label locale="en">Result Gateway</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf64"/>
+            <topicDocumentation name="sf51"/>
+            <topicDocumentation name="sf31"/>
+            <topicDocumentation name="sf37"/>
+            <topicDocumentation name="sf39">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+        </topicDocumentations>
+    </component>
+</processDocumentation>
